@@ -66,4 +66,6 @@ The following process is used to request audit reports:
 
 Refer to the GitHub repository at [https://github.com/Quantelytics/QuantelAI-Policies/](https://github.com/Quantelytics/QuantelAI-Policies/) for the full version history of these policies.
 
-** Acknowledgement: The Policy documents drafted by Quantel AI is based on Datica's Open Sourced Policy Documents. We would like to place our sincere gratitude to Datica for their generous contribution to the Open Source community **
+## 1.7 Acknowledgement 
+
+The Policy documents drafted by Quantel AI is based on Datica's Open Sourced Policy Documents. We would like to place our sincere gratitude to Datica for their generous contribution to the Open Source community 

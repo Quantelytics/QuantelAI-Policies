@@ -64,4 +64,4 @@ The following process is used to request audit reports:
 
 ## 1.6 Version Control
 
-Refer to the GitHub repository at [https://github.com/quantelai/policies/](https://github.com/catalyzeio/policies/) for the full version history of these policies.
+Refer to the GitHub repository at [https://github.com/Quantelytics/QuantelAI-Policies/](https://github.com/Quantelytics/QuantelAI-Policies/) for the full version history of these policies.

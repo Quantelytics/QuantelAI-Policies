@@ -2,22 +2,7 @@
 
 Quantel AI makes every effort to assure all 3rd party organizations are compliant and do not compromise the integrity, security, and privacy of Quantel AI or Quantel AI Customer data. 3rd Parties include Customers, Partners, Subcontractors, and Contracted Developers.
 
-## 21.1 Applicable Standards
-
-### 21.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-*  05.i - Identification of Risks Related to External Parties
-*  05.k - Addressing Security in Third Party Agreements
-*  09.e - Service Delivery
-*  09.f - Monitoring and Review of Third Party Services
-*  09.g - Managing Changes to Third Party Services
-*  10.1 - Outsourced Software Development
-
-### 21.1.2 Applicable Standards from the HIPAA Security Rule
-
-* 164.314(a)(1)(i) - Business Associate Contracts or Other Arrangements
-
-## 21.2 Policies to Assure 3rd Parties Support Quantel AI Compliance
+## 21.1 Policies to Assure 3rd Parties Support Quantel AI Compliance
 
 1. Quantel AI does not allow 3rd party access to production systems containing ePHI.
 2. All connections and data in transit between Quantel AI Platform and 3rd parties are encrypted end to end.

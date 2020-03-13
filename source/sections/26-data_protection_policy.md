@@ -38,20 +38,72 @@ Departments and organizations within the university should, as appropriate, take
 Boston University personnel are responsible for complying with all BU policies, including this one, to the best of their understanding and to make reasonable efforts to properly understand.
 
 ## 26.4 Internal Data
-| Collecting  | No restrictions. |
-| Accessing  | Access should be provided as required for business devices used to access sensitive (non-Public) information must meet minimum security standards. |
-| Sharing  | Share with employees as needed. Share with vendors/third-parties as approved by department head. |
-| Sending  | * Paper - Send in a manner that protects the information from incidental or casual reading. 
-*  Electronic -  Use a method that requires recipient to authenticate prior to receipt, such as email, a web site that requires Web Login, or a file server that requires a password. Use secure email service for more private data |
-| Storing  | * Paper  - Keep in non-public areas when not in use. 
-*  Electronic  - Devices used to store sensitive (non-Public) information must meet minimum security standards. 
-* Electronic Media (CD, DVD, USB, etc.)  | Store media in a non-public location when not in use. |
-| Auditing  | ALL  - Conduct a periodic review of where this data is located, who has access to it, the access control mechanisms, encryption protocols, and data destruction protocols. |
-| Incident Reporting  | ALL  - Report the loss of any Internal Data to the local department head who will determine the requirements, if any, for further reporting. |
-| Destroying  | * ALL  - Review University Record Retention Policy before disposing of records. 
-* Paper & Disposable Electronic Media (CDs, DVDs)  - For Internal documents with sensitive content, consider shredding materials before disposing of them. 
-* Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk drives)  - Use standard operating system utilities to delete files. 
-* All Electronic Storage Media at End of Life, including Disk Drives  - It is best practice to securely erase these devices before disposing of them. See the Media Destruction page for more details. |
+<table width="95%">
+<tbody>
+<tr>
+<td rowspan="14" width="8%"><strong>Internal Data</strong></td>
+<td width="8%"><strong>Collecting</strong></td>
+<td colspan="2" width="8%">No restrictions.</td>
+</tr>
+<tr>
+<td width="8%"><strong>Accessing</strong></td>
+<td colspan="2" width="8%">Access should be provided as required for business devices used to access sensitive (non-Public) information must meet <a href="http://www.bu.edu/policies/minimum-security-standards/">minimum security standards</a>.</td>
+</tr>
+<tr>
+<td width="8%"><strong>Sharing</strong></td>
+<td colspan="2" width="8%">Share with employees as needed. Share with vendors/third-parties as approved by department head.</td>
+</tr>
+<tr>
+<td rowspan="2" width="8%"><strong>Sending</strong></td>
+<td width="8%">Paper</td>
+<td width="8%">Send in a manner that protects the information from incidental or casual reading.</td>
+</tr>
+<tr>
+<td width="8%">Electronic</td>
+<td width="8%">Use a method that requires recipient to authenticate prior to receipt, such as email, a web site that requires Web Login, or a file server that requires a password. Use secure email service for more private data</td>
+</tr>
+<tr>
+<td rowspan="3" width="8%"><strong>Storing</strong></td>
+<td width="8%">Paper</td>
+<td width="8%">Keep in non-public areas when not in use.</td>
+</tr>
+<tr>
+<td width="8%">Electronic</td>
+<td width="8%">Devices used to store sensitive (non-Public) information must meet <a href="http://www.bu.edu/policies/minimum-security-standards/">minimum security standards</a>.</td>
+</tr>
+<tr>
+<td width="8%">Electronic Media (CD, DVD, USB, etc.)</td>
+<td width="8%">Store media in a non-public location when not in use.</td>
+</tr>
+<tr>
+<td width="8%"><strong>Auditing</strong></td>
+<td width="8%">ALL</td>
+<td width="8%">Conduct a periodic review of where this data is located, who has access to it, the access control mechanisms, encryption protocols, and data destruction protocols.</td>
+</tr>
+<tr>
+<td width="8%"><strong>Incident Reporting</strong></td>
+<td width="8%">ALL</td>
+<td width="8%">Report the loss of any Internal Data to the local department head who will determine the requirements, if any, for further reporting.</td>
+</tr>
+<tr>
+<td rowspan="4" width="8%"><strong>Destroying</strong></td>
+<td width="8%">ALL</td>
+<td width="8%">Review <a href="http://www.bu.edu/policies/information-management/record-retention/">University Record Retention Policy</a> before disposing of records.</td>
+</tr>
+<tr>
+<td width="8%">Paper &amp; Disposable Electronic Media (CDs, DVDs)</td>
+<td width="8%">For Internal documents with sensitive content, consider shredding materials before disposing of them.</td>
+</tr>
+<tr>
+<td width="8%">Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk drives)</td>
+<td width="8%">Use standard operating system utilities to delete files.</td>
+</tr>
+<tr>
+<td width="8%">All Electronic Storage Media at End of Life, including Disk Drives</td>
+<td width="8%">It is best practice to securely erase these devices before disposing of them. See the <a href="http://www.bu.edu/tech/services/infrastructure/storage-backup/media-destruction/">Media Destruction page</a> for more details.</td>
+</tr>
+</tbody>
+</table>
 
 ## 26.5 Confidential Data
 Confidential Data  | Collecting  | Reduce or eliminate collection where not required for business function. Collection of some types of Confidential data about individuals may require the approval of the appropriate Data Trustee(s). See the Data Access Management Policy for a list of the trustees and the approval request form.

@@ -14,13 +14,13 @@ Out of scope items include operational or systems administrative duties as defin
 
 The purpose of this policy is to:
 
-    manage changes to the IT infrastructure to enable Quantel AI staff members and clients to plan accordingly
-    to reduce the impact of changes on other tasks/projects
-    promote communication and collaboration regarding change items
-    to share knowledge with the University Help Desk regarding infrastructure modifications
-    enable a smooth beginning for each start of semester
-    minimize the likelihood of outages
-    maintain compliance to applicable regulations
+ * manage changes to the IT infrastructure to enable Quantel AI staff members and clients to plan accordingly
+ * to reduce the impact of changes on other tasks/projects
+ * promote communication and collaboration regarding change items
+ * to share knowledge with the University Help Desk regarding infrastructure modifications
+ * enable a smooth beginning for each start of semester
+ * minimize the likelihood of outages
+ * maintain compliance to applicable regulations
 
 ## 27.3 Submittal of a Change Request
 

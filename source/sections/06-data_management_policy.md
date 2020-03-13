@@ -1,31 +1,20 @@
-# 6. Data Management Policy
+#6 Data Management Policy
+Quantel AI does not take any responsibility for maintaining backups of Customer data for the purposes of Customer Business Recovery plan. However, Quantel AI will maintain backups of data needed for efficient operation of it's products and the business goals agreed upon. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by Quantel AI.
 
-Quantel AI has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjunction with Quantel AI Add-ons and for PaaS Customers utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data, do not apply to PaaS Customers that do not choose Quantel AI Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by Quantel AI.
-
-Data backup is an important part of the day-to-day operations of Quantel AI. To protect the confidentiality, integrity, and availability of ePHI, both for Quantel AI and Quantel AI Customers, complete backups are done daily to assure that data remains available when needed and in case of a disaster.
+Data backup is an important part of the day-to-day operations of Quantel AI. To protect the confidentiality, integrity, and availability of Customer data, both for Quantel AI and Quantel AI Customers, complete backups are done daily to assure that data remains available when needed and in case of a disaster.
 
 Violation of this policy and its procedures by workforce members may result in corrective disciplinary action, up to and including termination of employment.
 
-## 6.1 Applicable Standards
 
-### 6.1.1 Applicable Standards from the HITRUST Common Security Framework
+##6.1 Storage
+Where possible all data will be stored on encrypted drives. This helps against attacks during the "data at rest" phase. It also prevents people from rebooting any of our servers without our knowledge.
 
-* 01.v - Information Access Restriction
+##6.2 Backup
+To counter data loss, backups will be created for important assets and data. As a backup is another copy of the data, the same rules apply to storage. Where possible, it will be encrypted. Backups will be stored based on retention policy of the Customer.
 
-### 6.1.2 Applicable Standards from the HIPAA Security Rule
+##6.3 Retention
+The rule followed regarding data retention is simple: as short as possible. We only backup what is really needed and are especially careful not to store customer data too long. Data will be stored based on retention policy of the Customer or completion of contract, whichever comes earlier. 
 
-* 164.308(a)(7)(ii)(A) - Data Backup Plan
-* 164.310(d)(2)(iii) - Accountability
-* 164.310(d)(2)(iv) - Data Backup and Storage
 
-## 6.2 Backup Policy and Procedures
 
-1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for Quantel AI Customers, including PaaS Customers that utilize Quantel AI Backup Service.
-2. Quantel AI Ops Team is designated to be in charge of backups.
-3. Dev Ops Team members are trained and assigned to complete backups and manage the backup media.
-4. Document backups
-   * Name of the system
-   * Date & time of backup
-   * Where backup stored (or to whom it was provided)
-5. Securely encrypt stored backups in a manner that protects them from loss or environmental damage.
-6. Test backups annually and document that files have been completely and accurately restored from the backup media.
+

@@ -1,151 +1,134 @@
 # 11. Incident Response Policy
 
-Quantel AI implements an information security incident response process to consistently detect, respond to, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
+## 11.1 Summary
 
-The incident response process addresses:
+### 11.1.1 Purpose
+Quantel AI has and will continue maintain controls and procedures to support a structured approach to the management of Events, Incidents, and Breaches (“Incidents”).  The goal is to avoid or contain the impact of Incidents in order to minimize potential direct and indirect damage to Quantel AI operations.
+The Incident Response Policy (“IR Policy”) provides a structured process for the detection, reporting, assessment of, and decision-making related to Incidents. This structure will enable the rapid response necessary to quickly mitigate Incidents, and provide a means of preventing future similar Incidents.  
 
-* Continuous monitoring of threats through intrusion detection systems (IDS) and other monitoring applications;
-* Establishment of an information security incident response team;
-* Establishment of procedures to respond to media inquiries;
-* Establishment of clear procedures for identifying, responding, assessing, analyzing, and follow-up of information security incidents;
-* Workforce training, education, and awareness on information security incidents and required responses; and
-* Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders.
+### 11.1.2 Applicability
+The IR Policy applies to reported Incidents that may have a negative impact on Quantel AI, its Affiliates, data, or systems.  
+Every Quantel AI employee is required to comply with and participate in the implementation and adherence of the IR Policy, including prompt reporting of suspected Incidents, issues, and problems to appropriate Quantel AI personnel.
 
-*Note:* These policies were adapted from work by the [HIPAA Collaborative of Wisconsin Security Networking Group](http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc). Refer to the linked document for additional copyright information.
+### 11.1.3 Classification of Incidents
+Quantel AI has identified the following two categories for Incident classification:
+ 
+ * Non-critical -- no known loss of data. Non-critical Incidents, when investigated, may become critical Incidents, in which case the response will be adjusted accordingly.
+ * Critical -- known loss of data. 
 
-## 11.1 Applicable Standards
+### 11.1.4 Objectives
+This IR Policy has three primary objectives: 
+ * Reducing adverse business impacts resulting from Incidents;
+ * Strengthening the organization’s commitment to information security and focus on Incident prevention; and
+ * Ensuring continued compliance with legal, regulatory, or contractual requirements applicable to Incidents and Incident Response.
 
-### 11.1.1 Applicable Standards from the HITRUST Common Security Framework
+### 11.1.5 Relationship and Approach to Enterprise Security Policy
+The IR Policy is aligned with the Quantel AI Information Security Policy, including with respect to Quantel AI’s organizational cyber-risk tolerance and risk mitigation strategies. Quantel AI’s incident response program will rely in part on preventative, detective and corrective controls as required by the Information Security Policy.   
+This policy outlines the process to be used by Quantel AI when responding to Incidents involving Quantel AI data assets.  
 
-* 11.a - Reporting Information Security Events
-* 11.c - Responsibilities and Procedures
+### 11.1.6 Roles and Responsibilities
+The Quantel AI CISO (or their designee) is responsible for managing this Policy.  This policy will be periodically updated by Quantel AI Senior Management in accordance with the current enterprise cybersecurity threat landscape and acceptable risk profile. It will address how the mitigating control strategy helps mitigate the risk associated with identified threats. 
+The CISO (or his/her designee) is the operational leader responsible for implementing, maintaining and executing the IR Program.  The Quantel AI Security Incident Response Team (“IRT”) has the primary role of classifying an Incident based on the assessed severity, and managing response activities.  The core IRT is comprised of members representing the functionally relevant teams. The extended IRT incorporates members from other business functions and stakeholders, including external entities such as forensics, outside counsel, and public relations firms. Extended team members will be included in the IRT based on the requirements associated with each particular Incident.
+The CISO, or his/her appointed delegate, will serve as the Incident Manager (“IM”) for each identified Incident.  The General Counsel will provide direction to the IM and lead additional response activities as required in instances of Escalated Incidents or Breaches.
+All Quantel AI Associates have the responsibility for maintaining an awareness of Incident Management and are expected to appropriately report an event or incident if they become aware of one. Quantel AI provides a Security Incident Response form for employees to alert the Incident Response team of potential incidents; these alerts are reviewed as soon as possible and the management of the Incident Response process begins as quickly as possible thereafter. 
 
-### 11.1.2 Applicable Standards from the HIPAA Security Rule
+## 11.2. Incident Response Program and Lifecycle
 
-* 164.308(a)(5)(i) - Security Awareness and Training
-* 164.308(a)(6) - Security Incident Procedures
+### 11.2.1 Incident and Breach Management Process
+Whenever a possible security Incident is reported, the Quantel AI Incident Response team initiates a process to verify and evaluate the potential severity, as well as to determine appropriate follow-up actions. The IR Process is divided into seven high-level work streams, each consisting of activities, responsibilities, and resources:
+1. Detect:  Quantel AI detects a security event, documents the occurrence, and initiates the incident response process. 
+2. Triage:  The IRT gathers basic Incident information and conducts high-level analysis. This enables  an initial assessment of  potential incident severity, is used to assign priority, and drives communication to appropriate Quantel AI personnel. Based on the priority of the Incident, selected members of the IRT are activated.
+3. Forensics:  The IRT performs a deeper analysis on the Incident to uncover root causes, collects all relevant facts, and makes an updated determination regarding the severity and priority of the Incident. The forensics process also ensures that digital evidence integrity is maintained to support ongoing investigations and potential litigation. 
+4. Mitigate:  Based on the results of incident analysis, containment and control processes are initiated to limit the impact of the event and remove compromised information assets from the Quantel AI environment.  This step concludes with the restoration of normal operations 
+5. Postmortem:  After each Incident a postmortem analysis is performed, where the root cause of the incident, associated risks and corresponding controls are identified, and remediation plans are adopted as needed.
+6. Incident Communication:  Quantel AI documents actions taken throughout the response process, and notifies relevant internal and external parties regarding the Incident as required.
+7. Breach Management:  Quantel AI, identifies, manages, and responds to Escalated Incidents and Breaches in accordance with legal and regulatory requirements. 
+The work streams are not intended to be serial in nature or necessary for all incidents; activities within and across work streams will run in parallel and be coordinated by the Incident Manager as needed. 
 
-## 11.2 Incident Management Policies
+### 11.2.2 Detect
+Quantel AI implements technology controls to detect and record potential security incidents as outlined in the Security Management and Technical Controls Policy. Systems are in place to monitor information assets and alert appropriate personnel on deviations from the expected behavior required for business operations.
+If an employee identifies suspicious or anomalous activity that may indicate a potential security event, they will immediately notify the Incident Response team via the Security Incident Notification form.   
+If a client identifies suspicious or anomalous activity that may indicate a potential security event, they are instructed to email Quantel AI data protection email. The availability of this alias is communicated to the client by Quantel AI’s customer account team as well as included in Quantel AI’s Data Use Notice.
 
-Quantel AI incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf).
+### 11.2.3 Triage
+Every security Incident will be analyzed and categorized in a consistent and timely manner.  As part of the analysis process, severity and priority levels will be assigned to all verified Incidents so that the appropriate response and escalation procedures can be determined.  The purpose of the Triage step is to gather essential information about the Event so that the appropriate IRT resources can be deployed. Assigned Incident severities may be changed or updated during the response process as more information becomes available to the IRT. 
+Prior to assessing the Incident, the IRT will work to quickly collect relevant information.  Once available information is collected, the IRT will conduct an assessment to determine how to classify the Incident for purposes of response.  This assessment will use a standardized approach that categorizes each event based on the actual or projected adverse impacts to the organization’s business and customers.  The assessment process, and its results, will be logged, with related activities tracked.
+After initial identification, reporting, and associated documentation, the IRT must investigate the Incident and assess, based on ascertainable facts, the severity of the Incident, including whether to classify the Incident as an Escalated Incident or Breach.  Any classification of an Incident as an Escalated Incident or Breach must involve the Quantel AI General Counsel.
 
-Quantel AI's incident response classifies security-related events into the following categories:
+### 11.2.4 Forensics
+The forensics step of the process is critical for collecting and maintaining evidence that may be required to pursue future legal actions.  The forensics step will produce the necessary details to document the Incident and determine what level of notification may be necessary.
+Actions taken in the forensics process will appropriately consider the preservation of evidence through proper chain of custody controls.  Reporting on forensic findings will be performed under the direction of the General Counsel.
 
-* **Events** - Any observable computer security-related occurrence in a system or network with a negative consequence. Examples:
-  * Hardware component failing causing service outages.
-  * Software error causing service outages.
-  * General network or system instability.
-* **Precursors** - A sign that an incident may occur in the future. Examples:
-  * Monitoring system showing unusual behavior.
-  * Audit log alerts indicated several failed login attempts.
-  * Suspicious emails targeting specific Quantel AI staff members with administrative access to production systems.
-* **Indications** - A sign that an incident may have occurred or may be occurring at the present time. Examples:
-  * IDS alerts for modified system files or unusual system accesses.
-  * Antivirus alerts for infected files.
-  * Excessive network traffic directed at unexpected geographic locations.
-* **Incidents** - A violation of computer security policies or acceptable use policies, often resulting in data breaches. Examples:
-  * Unauthorized disclosure of ePHI.
-  * Unauthorized change or destruction of ePHI.
-  * A data breach accomplished by an internal or external entity.
-  * A Denial-of-Service (DoS) attack causing a critical service to become unreachable.
+### 11.2.5 Mitigate
+Based on the assessed Incident severity, the IRT and other relevant Quantel AI team members will pursue a mitigation strategy to minimize ongoing business impact of the Incident while ensuring evidence integrity is maintained to allow for thorough investigation as required. 
 
-Quantel AI employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security Officer know about any observed precursors or indications as soon as they are discovered.
+### 11.2.6 Postmortem
+The IRT will conduct a Postmortem meeting after every Incident to determine necessary actions needed to mitigate all identified risks in the future.  
+During the assessment, the IRT will work to answer the following questions:
+ * What was the business impact of the Incident?
+ * What Quantel AI systems, information, and users were affected?  
+ * What Quantel AI systems, information, and users were definitively not affected?
+ * What Quantel AI accounts (and associated logs) had access to affected information assets?
+ * What vulnerabilities were exploited?
+ * What controls were not followed?  What risks were underestimated by our current controls?  Do we need new controls to guard against these risks?
+In addition, for all Incidents classified as Breaches, the IRT will answer the following questions:
+ * If personally identifiable information was accessed and/or acquired, where did it originate?
+ * Who accessed the information?
+ * Who received the information?
+ * Have steps been taken to mitigate the risk to any personally identifiable information that was accessed and/or acquired?
+Postmortems will also consider if changes need to be made to this IR Policy.  Changes may include:  new or modified roles and responsibilities; changes to the scope of the IR Policy and the Incident Response program; changes in process; revised metrics and reporting; and additional training and awareness opportunities.
 
-### 11.2.1 Identification Phase
+### 11.2.7 Incident Communication
+Internal communication about the Incident will be managed by the IR Team. External communication about the Incident will follow the timelines for completion dictated by relevant laws and regulations. 
+The following actions ensure all relevant stakeholders are informed of incidents and investigations as required:
+ * documentation of Incidents and the responsive actions taken, 
+ * notification of internal and external parties other than legal, regulatory or contractual notifications made in response to Breaches under the Breach Management work stream, and
+ * reporting, both internal or external, regarding an Incident.
 
-1. Immediately upon observation Quantel AI members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:
-   1. Direct report to management, the Security Officer, Privacy Officer, or other;
-   2. Email;
-   3. Phone call;
-   4. Online incident response form located [here](https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
-   5. Secure Chat;
-   6. Anonymously through workforce member's desired channels.
-2. The individual receiving the report facilitates completion of an [Incident Identification form](sections/IH-Identification.pdf) and notifies the Security Officer (if not already done).
-3. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
-   1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
-      1. Non-Technical Event (minor infringement): the Security Officer completes a [SIR Form](sections/sir-form.doc) and investigates the incident.
-      2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
-   2. If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.
-       1. If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.
-       2. Once the investigation is completed, progress to Phase V, Follow-up.
-       3. If the issue is a technical security incident, commence to Phase II: Containment.
-       4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
-       5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
-       6. The lead member of the SIRT team facilitates initiation of a [SIR Form](sections/sir-form.doc) or an [Incident Survey Form](sections/IH-Survey.pdf). The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
-3. The Security Officer, Privacy Officer, or Quantel AI representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
-4. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Quantel AI and potentially external.
+### 11.2.8 Breach management
+Many key regulatory requirements applicable to a Breach and related breach response requirements include provisions to notify affected persons of a Breach involving personally identifiable information and protected health information. Some regulations around incident response further require timely notification to regulatory bodies or state attorneys general.  
+In addition, Quantel AI’s cybersecurity insurance policy may contain notification requirements that must be met in order for the policy to take effect. 
+For any Breach or Escalated Incident for which notification will be made, the notification effort will be a cross-functional coordinated effort with the General Counsel and the IRT.  The team will move swiftly to prepare for any notifications to be made in connection with an Escalated Incident or Breach.  
+The determination of whether to make any notification to regulatory agencies, law enforcement agencies, consumers, or other entities regarding an Escalated Incident or Breach, the timing of any such notices, and the content of such notices will be made by the General Counsel, or his/her delegates.  Any notifications to law enforcement or regulatory agencies will involve and be under the direction of the General Counsel.  
+Any notice in public securities filings will be made consistent with applicable law and U.S. Securities and Exchange Commission requirements and guidance.  The determination of whether to provide notice in public filings will be made by the Senior Management team.
+Incident reporting happens concurrently with Incident management.  Prompt communication about Incidents with senior management, the board of directors and the General Counsel is a priority.
+The response to the Incident will be closed only after (1) it has been resolved, with the resolution documented, (2) notification has been sent to the appropriate parties, and (3) the Incident has been evaluated for lessons learned.
 
-### 11.2.2 Containment Phase (Technical)
+### 11.2.9 External Resources
+Proper Incident Response may require outside resources, including outside forensics, legal counsel, and media support.  To better protect the legal privileges for conversations and correspondence with outside resources, outside resources will be retained by the Legal Department or outside legal counsel upon determination (with support of relevant executive stakeholders) that retention of outside legal counsel is necessary.  In the event of a Breach requiring notification to a large number of data subjects, the response effort may necessitate the use of additional external services (e.g., a mailing service and call center, credit or identity monitoring services). These external resources will be identified and retained prior to the initiation of the IR process as required based on the organization’s risk profile. The IRT is tasked with vetting and owning relationships with any external resources and hiring them as needed.  
 
-In this Phase, Quantel AI's IT department attempts to contain the security incident. It is extremely important to take detailed notes during the security incident response process. This provides that the evidence gathered during the security incident can be used successfully during prosecution, if appropriate.
+## 11.3. Exceptions
 
-1. The SIRT reviews any information that has been collected by the Security Officer or any other individual investigating the security incident.
-2. The SIRT secures the network perimeter.
-3. The IT department performs the following:
-   1. Securely connect to the affected system over a trusted connection.
-   2. Retrieve any volatile data from the affected system.
-   3. Determine the relative integrity and the appropriateness of backing the system up.
-   4. If appropriate, back up the system.
-   5. Change the password(s) to the affected system(s).
-   6. Determine whether it is safe to continue operations with the affected system(s).
-   7. If it is safe, allow the system to continue to function;
-      1. Complete any documentation relative to the security incident on the [SIR Form](sections/sir-form.doc).
-      2. Move to Phase V, Follow-up.
-   8. If it is NOT safe to allow the system to continue operations, discontinue the system(s) operation and move to Phase III, Eradication.
-   9. The individual completing this phase provides written communication to the SIRT.
-4. Continuously apprise Senior Management of progress.
-5. Continue to notify affected Customers and Partners with relevant updates as needed
+### 11.3.1 Pre-approved Exceptions
+Extraordinary circumstances may require exceptions be made to this IR Policy. When such exceptions are granted, they will be approved only for limited and specific periods of time and will be tracked as a part of the Quantel AI risk management program. 
+Exception requests will contain:
+ * Description of the circumstance(s), action, or event requiring policy exception;
+ * Reason the IR Policy cannot be met;
+ * Expected date of exception resolution;
+ * Time period requested for exception;
+ * Total duration of exception to date if extension is requested.
 
-### 11.2.3 Eradication Phase (Technical)
+### 11.3.2 Approval Process for Exceptions to IR Policy
+Requests for exceptions to this IR Policy and its associated procedures will be submitted to the CISO (or their designee).  The CISO (or their designee) will consult with the IRT team and Quantel AI Senior Management, as appropriate, prior to documenting  in writing management’s response to the exception request.
+Exception requests potentially impacting Breach response capabilities or the effective management and protection of Personal Information also require the review and documented approval of the General Counsel in addition to that of the CISO (or their designee).
 
-The Eradication Phase represents the SIRT's effort to remove the cause, and the resulting security exposures, that are now on the affected system(s).
 
-1. Determine symptoms and cause related to the affected system(s).
-2. Strengthen the defenses surrounding the affected system(s), where possible (a risk assessment may be needed and can be determined by the Security Officer). This may include the following:
-   1. An increase in network perimeter defenses.
-   2. An increase in system monitoring defenses.
-   3. Remediation ("fixing") any security issues within the affected system, such as removing unused services/general host hardening techniques.
-3. Conduct a detailed vulnerability assessment to verify all the holes/gaps that can be exploited have been addressed.
-   1. If additional issues or symptoms are identified, take appropriate preventative measures to eliminate or minimize potential future compromises.
-4. Complete the [Eradication Form](sections/IH-Eradication.pdf).
-5. Update the documentation with the information learned from the vulnerability assessment, including the cause, symptoms, and the method used to fix the problem with the affected system(s).
-6. Apprise Senior Management of the progress.
-7. Continue to notify affected Customers and Partners with relevant updates as needed.
-8. Move to Phase IV, Recovery.
+## 11.4. Metrics and Measurement and documentation
+Meaningful and measurable metrics will be identified, defined, and implemented in order to measure the performance and effectiveness of the incident response program. Measurement will be included in annual reporting to Senior Management and the Board of Directors.
+Materials relating to Incidents and Breaches will be retained in accordance with applicable law as determined by the General Counsel.  Because Incidents may lead to an increased risk of regulatory examinations or enforcement actions or litigation, materials relating to such security incident will be retained for at least until the statute of limitations for actions relating to the Incident.  This determination will be made by the General Counsel.
+Where the General Counsel reasonably anticipates or is aware of litigation, a government investigation, an audit, or other official action relating to an Incident, it may suspend, in whole or in part, the normal retention periods and any related record retention or destruction standard by putting in place a “Legal Hold”.  A Legal Hold will apply to any materials that exist at the time of the Legal Hold or is created after the Legal Hold is issued, though it will be limited to those records and systems relevant to the particular action and the allegations or claims of that action.
 
-### 11.2.4 Recovery Phase (Technical)
+## 11.5. Policy Violations
+Failure to comply with this IR Policy may result in disciplinary action, up to and including termination of employment in the case of Quantel AI or may result in the termination of contracts or other related agreements between Quantel AI and its contract personnel, consultants, suppliers, vendors, or other third parties.
 
-The Recovery Phase represents the SIRT's effort to restore the affected system(s) back to operation after the resulting security exposures, if any, have been corrected.
+## 11.6. Change Management
+This IR Policy will be reviewed on as needed basis, in no event less than annually, and updated based on factors internal and external to the organization.  
 
-1. The technical team determines if the affected system(s) have been changed in any way.
-   1. If they have, the technical team restores the system to its proper, intended functioning ("last known good").
-   2. Once restored, the team validates that the system functions the way it was intended/had functioned in the past. This may require the involvement of the business unit that owns the affected system(s).
-   3. If operation of the system(s) had been interrupted (i.e., the system(s) had been taken offline or dropped from the network while triaged), restart the restored and validated system(s) and monitor for behavior.
-   4. If the system had not been changed in any way, but was taken offline (i.e., operations had been interrupted), restart the system and monitor for proper behavior.
-   5. Update the documentation with the detail that was determined during this phase.
-   6. Apprise Senior Management of progress.
-   7. Continue to notify affected Customers and Partners with relevant updates as needed.
-   8. Move to Phase V, Follow-up.
+### 11.6.1 External Factors
+External updates may results from: new laws, regulations, and industry requirements; evolving cyber threats and attack vectors; contractual requirements with third party service providers and business partners; and cultural and geographical differences outside of the United States.
 
-### 11.2.5 Follow-up Phase (Technical and Non-Technical)
+### 11.6.2 Internal Factors
+Internal updates may result from: new products or services; mergers, acquisitions, asset sales, and spin-offs; changes in business process or technology infrastructure; reorganization or change in personnel; and new/modified arrangements with third party service providers and business partners.
 
-The Follow-up Phase represents the review of the security incident to look for "lessons learned" and to determine whether the process that was taken could have been improved in any way. It is recommended all security incidents be reviewed shortly after resolution to determine where response could be improved. Timeframes may extend to one to two weeks post-incident.
-
-1. Responders to the security incident (SIRT Team and technical security resource) meet to review the documentation collected during the security incident.
-2. Create a "lessons learned" document and attach it to the completed [SIR Form](sections/sir-form.doc).
-   1. Evaluate the cost and impact of the security incident to Quantel AI using the documents provided by the SIRT and the technical security resource.
-   2. Determine what could be improved.
-   3. Communicate these findings to Senior Management for approval and for implementation of any recommendations made post-review of the security incident.
-   4. Carry out recommendations approved by Senior Management; sufficient budget, time and resources should be committed to this activity.
-   5. Close the security incident.
-
-### 11.2.6 Periodic Evaluation
-
-It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding Quantel AI's expectation for them, relative to security responsibilities. The incident response plan is tested annually.
-
-## 11.3 Security Incident Response Team (SIRT)
-
-Current members of Quantel AI SIRT:
-
-* Security Officer
-* Privacy Officer
+## 11.7. Incident Response Training
+Employees will be trained on their obligations with respect to Incident awareness and notification during orientation and on an ad hoc basis as needed. The Incident Response team will meet annually for Incident Response training, which will consistent of policy review, procedure updates as needed. 

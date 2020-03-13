@@ -106,57 +106,186 @@ Boston University personnel are responsible for complying with all BU policies, 
 </table>
 
 ## 26.5 Confidential Data
-Confidential Data  | Collecting  | Reduce or eliminate collection where not required for business function. Collection of some types of Confidential data about individuals may require the approval of the appropriate Data Trustee(s). See the Data Access Management Policy for a list of the trustees and the approval request form.
-Accessing  | Access to some Confidential data requires approval of a Data Trustee on a per-individual basis. See the Data Access Management Policy for a list of the trustees and the approval request form. Devices used to access sensitive (non-Public) information must meet minimum security standards. Ensure protocols are in place to immediately remove access upon change in employment status of any individual with access.
-Sharing  | If you are uncertain if a piece of Confidential information should be shared, escalate the request to an appropriate supervisor or Data Trustee. For types of data that are governed by a Data Trustee, this information may be shared only for business purposes and only as approved by the appropriate Data Trustee, except where the information is being given to approved custodians of that type of data. Information concerning a small number of individuals may be shared internally without Trustee review if the recipient of the data has a need-to-know and is entrusted with the same type of information for their job function. Note: Non-disclosure language or a confidentiality agreement may be appropriate.For example:
-
-    Grades need to be communicated to the Registrar’s office
-    Faculty may consult with other faculty about a student’s performance, as appropriate.
-    Sharing information with vendors and third-parties requires Data Trustee approval
-
-For types of data that are not governed by a Data Trustee, the information may be shared internally on a need-to-know basis
-
-Information may be shared with the subject of the record or with another party with the subject’s approval, as appropriate.
-Printing, Copying,& Scanning  | Printing, Copying,& Scanning  | Printers often store the printed document on a local hard drive, potentially allowing unauthorized access to the information. Avoid printing Confidential data unnecessarily.
-Sending  | Paper  | Address to the specific intended party and send in sealed security envelopes. Mark with “For intended recipient only”. Outside the University, paper should be sent via certified mail or with an authorized courier.
-Electronic  | Particularly sensitive data or large volumes of confidential data should be encrypted during transmission. It is recommended that you use the secure email service available from IS&T. If confidential information is to be stored on removable media (CD/DVD/USB/External HD) or in the cloud, see the section below regarding the proper storage.
-Fax  | Fax machines often store the faxed messages in memory, potentially allowing unauthorized access. Consider alternatives to faxing Confidential data where possible. If a fax must be used, consider taking reasonable steps to protect the data, including the use of a cover sheet stating that the fax is Confidential and to be read only by the named recipient. Also consider coordinating with the intended recipient so he or she is on hand to directly receive the fax before you begin to send.
-Smart Phones and tablet devices (such as iPads)  | The use of smart phones to access Confidential data, such as through email, puts that data at higher risk of unintended disclosure Individuals accessing Confidential Data via their such a device must comply with the standards set forth in minimum security standards.
-Storing  | Paper  | Should be stored in physically secure areas that are accessible only by authorized individuals. The number of copies should be kept to a minimum.
-Electronic  | Encryption of stored data is recommended. Devices used to store Confidential Information must meet minimum security standards. Cloud services may be used if they have been approved for this purpose by Information Security.
-Electronic Media (CD, DVD, USB, etc.)  | Encryption of stored data is recommended. Store media in a secure location when not in use.Media should be erased or destroyed as soon as it is no longer needed.
-Auditing  | ALL  | Each unit or department should conduct periodic reviews of where Confidential data is located, who has access to it, the access control mechanisms, encryption protocols, and data destruction protocols. Verify that procedures for removing access are documented and accurate.
-Incident Reporting  | ALL  | Any unauthorized disclosure or loss of this information must be reported to the appropriate dean or department head or the BU Incident Response Team (617-358-1100). Deans and department heads should report significant unauthorized disclosures or losses of Confidential data to the Incident Response Team. If you are unsure if an incident is significant, contact BU Information Security to discuss.(Examples include: A large quantity of information, sensitive personally identifiable information, a stolen/lost laptop known to contain Confidential information, etc.)
-Destroying  | ALL  | Review Record Retention Policy and the information in this destruction section before disposing of records. Do not destroy records that are the subject of a litigation hold or that must be retained pursuant to the University record retention policy.
-Paper & Disposable Electronic Media (CDs, DVDs)  | Physically destroy using a shredder or similar appropriate technology and then recycle or discard. See the Media Destruction page for more details.
-Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk drives)  | Delete using an approved secure deletion program. See the Media Destruction page for more details.
-All Electronic Storage Media at End of Life, including Disk Drives  | Functional electronic media that is erased using a secure erase tool may be recycled or disposed of. Non-functional electronic media (damaged disk drives) must be physically destroyed. See the Media Destruction page for more details on both methods.
-Device End of Lease or End of Life (Printers, Copiers, Multi-function office machines)  | Devices such as these often contain hard drives which must be properly erased, or “wiped”, prior to leaving BU control (returned to the vendor, sent to surplus, donated, disposed of, etc.). For information on how to properly wipe the drive, see the documentation for your device or contact BU Information Security.
+<table width="95%">
+<tbody>
+<tr>
+<td rowspan="18" width="13%"><strong>Confidential Data</strong></td>
+<td width="13%"><strong>Collecting</strong></td>
+<td colspan="2" width="13%">Reduce or eliminate collection where not required for business function. Collection of some types of Confidential data about individuals may require the approval of the appropriate Data Trustee(s). See the <a href="http://www.bu.edu/policies/1-2-b-data-access-management-policy/">Data Access Management Policy</a> for a list of the trustees and the approval request form.</td>
+</tr>
+<tr>
+<td width="13%"><strong>Accessing</strong></td>
+<td colspan="2" width="13%">Access to some Confidential data requires approval of a Data Trustee on a per-individual basis. See the <a href="http://www.bu.edu/policies/1-2-b-data-access-management-policy/">Data Access Management Policy</a> for a list of the trustees and the approval request form. Devices used to access sensitive (non-Public) information must meet <a href="http://www.bu.edu/policies/minimum-security-standards/">minimum security standards</a>. Ensure protocols are in place to immediately remove access upon change in employment status of any individual with access.</td>
+</tr>
+<tr>
+<td width="13%"><strong>Sharing</strong></td>
+<td colspan="2" width="13%">If you are uncertain if a piece of <em>Confidential</em> information should be shared, escalate the request to an appropriate supervisor or Data Trustee. For types of data that are governed by a Data Trustee, this information may be shared only for business purposes and only as approved by the appropriate Data Trustee, except where the information is being given to approved custodians of that type of data. Information concerning a small number of individuals may be shared internally without Trustee review if the recipient of the data has a need-to-know and is entrusted with the same type of information for their job function. Note: Non-disclosure language or a confidentiality agreement may be appropriate.For example:</p>
+<ul>
+<li>Grades need to be communicated to the Registrar’s office</li>
+<li>Faculty may consult with other faculty about a student’s performance, as appropriate.</li>
+<li>Sharing information with vendors and third-parties requires Data Trustee approval</li>
+</ul>
+<p>For types of data that are not governed by a Data Trustee, the information may be shared internally on a need-to-know basis</p>
+<p>Information may be shared with the subject of the record or with another party with the subject’s approval, as appropriate.</td>
+</tr>
+<tr>
+<td width="13%"><strong>Printing, Copying,&amp; Scanning</strong></td>
+<td width="13%">Printing, Copying,&amp; Scanning</td>
+<td width="13%">Printers often store the printed document on a local hard drive, potentially allowing unauthorized access to the information. Avoid printing <em>Confidential</em> data unnecessarily.</td>
+</tr>
+<tr>
+<td rowspan="4" width="13%"><strong>Sending</strong></td>
+<td width="13%">Paper</td>
+<td width="13%">Address to the specific intended party and send in sealed security envelopes. Mark with “For intended recipient only”. Outside the University, paper should be sent via certified mail or with an authorized courier.</td>
+</tr>
+<tr>
+<td width="13%">Electronic</td>
+<td width="13%">Particularly sensitive data or large volumes of confidential data should be encrypted during transmission. It is recommended that you use the <a href="http://www.bu.edu/tech/services/comm/email/datamotion/">secure email service</a> available from IS&amp;T. If confidential information is to be stored on removable media (CD/DVD/USB/External HD) or in the cloud, see the section below regarding the proper storage.</td>
+</tr>
+<tr>
+<td width="13%">Fax</td>
+<td width="13%">Fax machines often store the faxed messages in memory, potentially allowing unauthorized access. Consider alternatives to faxing <em>Confidential</em> data where possible. If a fax must be used, consider taking reasonable steps to protect the data, including the use of a cover sheet stating that the fax is <em>Confidential</em> and to be read only by the named recipient. Also consider coordinating with the intended recipient so he or she is on hand to directly receive the fax before you begin to send.</td>
+</tr>
+<tr>
+<td width="13%">Smart Phones and tablet devices (such as iPads)</td>
+<td width="13%">The use of smart phones to access Confidential data, such as through email, puts that data at higher risk of unintended disclosure Individuals accessing Confidential Data via their such a device must comply with the standards set forth in <a href="http://www.bu.edu/policies/minimum-security-standards/">minimum security standards</a>.</td>
+</tr>
+<tr>
+<td rowspan="3" width="13%"><strong>Storing</strong></td>
+<td width="13%">Paper</td>
+<td width="13%">Should be stored in physically secure areas that are accessible only by authorized individuals. The number of copies should be kept to a minimum.</td>
+</tr>
+<tr>
+<td width="13%">Electronic</td>
+<td width="13%">Encryption of stored data is recommended. Devices used to store <em>Confidential</em> Information must meet <a href="http://www.bu.edu/policies/minimum-security-standards/">minimum security standards</a>. Cloud services may be used if they have been approved for this purpose by Information Security.</td>
+</tr>
+<tr>
+<td width="13%">Electronic Media (CD, DVD, USB, etc.)</td>
+<td width="13%">Encryption of stored data is recommended. Store media in a secure location when not in use.Media should be erased or destroyed as soon as it is no longer needed.</td>
+</tr>
+<tr>
+<td width="13%"><strong>Auditing</strong></td>
+<td width="13%">ALL</td>
+<td width="13%">Each unit or department should conduct periodic reviews of where <em>Confidential</em> data is located, who has access to it, the access control mechanisms, encryption protocols, and data destruction protocols. Verify that procedures for removing access are documented and accurate.</td>
+</tr>
+<tr>
+<td width="13%"><strong>Incident Reporting</strong></td>
+<td width="13%">ALL</td>
+<td width="13%">Any unauthorized disclosure or loss of this information must be reported to the appropriate dean or department head or the BU <a href="http://www.bu.edu/tech/services/security/cyber-security/">Incident Response Team</a> (617-358-1100). Deans and department heads should report significant unauthorized disclosures or losses of <em>Confidential </em>data to the Incident Response Team. If you are unsure if an incident is significant, contact BU Information Security to discuss.(Examples include: A large quantity of information, sensitive personally identifiable information, a stolen/lost laptop known to contain <em>Confidential </em>information, etc.)</td>
+</tr>
+<tr>
+<td rowspan="5" width="13%"><strong>Destroying</strong></td>
+<td width="13%">ALL</td>
+<td width="13%">Review <a href="http://www.bu.edu/policies/information-management/record-retention/">Record Retention Policy</a> and the information in this destruction section before disposing of records. Do not destroy records that are the subject of a litigation hold or that must be retained pursuant to the University record retention policy.</td>
+</tr>
+<tr>
+<td width="13%">Paper &amp; Disposable Electronic Media (CDs, DVDs)</td>
+<td width="13%">Physically destroy using a shredder or similar appropriate technology and then recycle or discard. See the <a href="http://www.bu.edu/tech/services/infrastructure/storage-backup/media-destruction/">Media Destruction page </a>for more details.</td>
+</tr>
+<tr>
+<td width="13%">Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk drives)</td>
+<td width="13%">Delete using an approved secure deletion program. See the <a href="http://www.bu.edu/tech/services/infrastructure/storage-backup/media-destruction/">Media Destruction page</a> for more details.</td>
+</tr>
+<tr>
+<td width="13%">All Electronic Storage Media at End of Life, including Disk Drives</td>
+<td width="13%">Functional electronic media that is erased using a secure erase tool may be recycled or disposed of. Non-functional electronic media (damaged disk drives) must be physically destroyed. See the <a href="http://www.bu.edu/tech/services/infrastructure/storage-backup/media-destruction/">Media Destruction page</a> for more details on both methods.</td>
+</tr>
+<tr>
+<td width="13%">Device End of Lease or End of Life (Printers, Copiers, Multi-function office machines)</td>
+<td width="13%">Devices such as these often contain hard drives which must be properly erased, or “wiped”, prior to leaving BU control (returned to the vendor, sent to surplus, donated, disposed of, etc.). For information on how to properly wipe the drive, see the documentation for your device or contact BU Information Security.</td>
+</tr>
+</tbody>
+</table>
 
 ## 26.6 Restricted Use Data
-Restricted Use Data  | Collecting  | Eliminate collection whenever possible. Collection of Restricted Use data about individuals must be approved by and provided to the appropriate Data Trustee(s). See the Data Access Management Policy for a list of the trustees and the approval request form.
-Accessing  | Access to Restricted Use data requires approval of a Data Trustee. See the Data Access Management Policy for a list of the trustees and the approval request form. Avoid accessing or using Restricted Use data whenever possible, and do so from as few different devices as possible. Devices used to access Restricted Use information must meet minimum security standards for Restricted Use information. The custodian of the system or information must immediately remove access from any person that no longer requires that access as part of their job function.
-Sharing  | If you are uncertain if a piece of Restricted Use information should be shared, escalate the request to an appropriate supervisor or Data Trustee. This information may be shared only for need-to-know business purposes and only as approved by the appropriate Data Trustee, except where the information is being given to approved custodians of that type of data. Information concerning a small number of individuals may be shared internally without Trustee review if the recipient of the data has a need-to-know and is entrusted with the same type of information for their job function. Note: Non-disclosure and other types of agreements (business associate agreements) may be necessary. Such agreements or agreement forms must be approved by the Office of General Counsel. For example:
-
-    A doctor may consult with another doctor regarding a patient’s case, where appropriate.
-    Sharing information with vendors and third-parties requires Data Trustee approval and a review by BU Information Security who may consult with the Office of General Counsel and/or Information Security Program Director.
-
-Information may be shared with the subject of the record or with another party with the subject’s approval, as appropriate.
-Printing, Copying,& Scanning  | Printing, Copying, & Scanning  | Printers often store the printed document on a local hard drive, potentially allowing unauthorized access to the information. Avoid printing Restricted Use data unnecessarily.
-Sending  | Paper  | Address to the specific intended party and send in sealed security envelopes. Mark with “For intended recipient only”. Outside the University, paper must be sent via certified mail or with an authorized courier.
-Electronic  | Data is required to be encrypted during transmission. If Restricted Use data must be placed on removable media (CD/DVD/USB/External HD) or in the cloud, it must be properly protected. See the section below regarding proper storage. If Restricted Use data must be sent via email, use the secure email service available from IS&T. Compensating controls must be formally documented and an exception approved by Information Security where this is not technically possible.
-Fax  | Fax machines often store the faxed messages in memory, potentially allowing unauthorized access. Avoid faxing Restricted Use data where possible. If a fax must be used, include a cover sheet stating that the fax is Restricted Use and to be read only by the named recipient. Also, coordinate with the intended recipient so he or she is on hand to directly receive the fax before you begin to send.
-Smart Phones and tablet devices (such as iPads)  | The use of smart phones to access Restricted Use data is strongly discouraged. For example, do not check your secure email from your smart phone. Individuals that must use such a device to access Restricted Use data must comply with the standards set forth in the minimum security standards.
-Storing  | Paper  | Keep in locked filing cabinets in physically secure areas that are accessible only by authorized individuals. Keep the number of copies of the data to a minimum.
-Electronic  | Encryption of stored data is required. Devices used to store sensitive (non-Public) information must meet minimum security standards. Cloud services may not be used to process or store Restricted Use data unless they have been approved for such use by Information Security and the appropriate Data Trustee.
-Electronic Media (CD, DVD, USB, etc.)  | Encryption of stored data is required. Store media in a secure location when not in use. Media should be inventoried upon creation and destroyed as soon as it is no longer needed.
-Auditing  | ALL  | Each unit or department must conduct periodic reviews of where Restricted Use data is located, who has access to it, the access control mechanisms, encryption protocols, and data destruction protocols. Verify that procedures for removing access are documented and accurate.
-Incident Reporting  | ALL  | Any unauthorized disclosure or loss of this information must be reported to the BU Incident Response Team (617-358-1100) and will be conveyed to the Information Security Program Director.
-Destroying  | ALL  | Review University Record Retention Policy and the information in this destruction section before disposing of records. Do not destroy records that are the subject of a litigation hold or that must be retained pursuant to the University record retention policy.
-Paper & Disposable Electronic Media (CDs, DVDs)  | Physically destroy using a cross-cut shredder or similar appropriate technology and then recycle or discard. See the Media Destruction page for more details.
-Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk drives)  | Delete using an approved secure deletion program. See the Media Destruction page for more details.
-All Electronic Storage Media at End of Life, including Disk Drives  | Functional electronic media that can be overwritten using a secure erase tool then may be recycled or disposed of. Non-functional electronic media (damaged disk drives) must be physically destroyed. See the Media Destruction page for more details.
-Device End of Lease or End of Life (Printers, Copiers, Multi-function office machines)  | Devices such as these often contain hard drives which must be properly erased, or “wiped”, prior to leaving BU control (returned to the vendor, sent to surplus, donated, disposed of, etc.). For information on how to properly wipe the drive, see the documentation for your device or contact BU Information Security.
+<table width="95%">
+<tbody>
+<tr>
+<td rowspan="18" width="11%"><strong>Restricted Use Data</strong></td>
+<td width="11%"><strong>Collecting</strong></td>
+<td colspan="2" width="11%">Eliminate collection whenever possible. Collection of <em>Restricted Use</em> data about individuals must be approved by and provided to the appropriate Data Trustee(s). See the <a href="http://www.bu.edu/policies/1-2-b-data-access-management-policy/">Data Access Management Policy</a> for a list of the trustees and the approval request form.</td>
+</tr>
+<tr>
+<td width="11%"><strong>Accessing</strong></td>
+<td colspan="2" width="11%">Access to <em>Restricted Use</em> data requires approval of a Data Trustee. See the <a href="http://www.bu.edu/policies/1-2-b-data-access-management-policy/">Data Access Management Policy</a> for a list of the trustees and the approval request form. Avoid accessing or using <em>Restricted Use</em> data whenever possible, and do so from as few different devices as possible. Devices used to access <em>Restricted Use</em> information must meet <a href="http://www.bu.edu/policies/minimum-security-standards/">minimum security standards</a> for <em>Restricted Use </em>information. The custodian of the system or information must immediately remove access from any person that no longer requires that access as part of their job function.</td>
+</tr>
+<tr>
+<td width="11%"><strong>Sharing</strong></td>
+<td colspan="2" width="11%">If you are uncertain if a piece of <em>Restricted Use</em> information should be shared, escalate the request to an appropriate supervisor or Data Trustee. This information may be shared only for need-to-know business purposes and only as approved by the appropriate Data Trustee, except where the information is being given to approved custodians of that type of data. Information concerning a small number of individuals may be shared internally without Trustee review if the recipient of the data has a need-to-know and is entrusted with the same type of information for their job function. Note: Non-disclosure and other types of agreements (business associate agreements) may be necessary. Such agreements or agreement forms must be approved by the Office of General Counsel. For example:</p>
+<ul>
+<li>A doctor may consult with another doctor regarding a patient’s case, where appropriate.</li>
+<li>Sharing information with vendors and third-parties requires Data Trustee approval and a review by BU Information Security who may consult with the Office of General Counsel and/or Information Security Program Director.</li>
+</ul>
+<p>Information may be shared with the subject of the record or with another party with the subject&#8217;s approval, as appropriate.</td>
+</tr>
+<tr>
+<td width="11%"><strong>Printing, Copying,&amp; Scanning</strong></td>
+<td width="11%">Printing, Copying, &amp; Scanning</td>
+<td width="11%">Printers often store the printed document on a local hard drive, potentially allowing unauthorized access to the information. Avoid printing <em>Restricted Use</em> data unnecessarily.</td>
+</tr>
+<tr>
+<td rowspan="4" width="11%"><strong>Sending</strong></td>
+<td width="11%">Paper</td>
+<td width="11%">Address to the specific intended party and send in sealed security envelopes. Mark with “For intended recipient only”. Outside the University, paper must be sent via certified mail or with an authorized courier.</td>
+</tr>
+<tr>
+<td width="11%">Electronic</td>
+<td width="11%">Data is required to be encrypted during transmission. If <em>Restricted Use</em> data must be placed on removable media (CD/DVD/USB/External HD) or in the cloud, it must be properly protected. See the section below regarding proper storage. If <em>Restricted Use</em> data must be sent via email, use the <a href="http://www.bu.edu/tech/services/comm/email/datamotion/">secure email service</a> available from IS&amp;T. Compensating controls must be formally documented and an exception approved by Information Security where this is not technically possible.</td>
+</tr>
+<tr>
+<td width="11%">Fax</td>
+<td width="11%">Fax machines often store the faxed messages in memory, potentially allowing unauthorized access. Avoid faxing <em>Restricted Use</em> data where possible. If a fax must be used, include a cover sheet stating that the fax is <em>Restricted Use</em> and to be read only by the named recipient. Also, coordinate with the intended recipient so he or she is on hand to directly receive the fax before you begin to send.</td>
+</tr>
+<tr>
+<td width="11%">Smart Phones and tablet devices (such as iPads)</td>
+<td width="11%">The use of smart phones to access Restricted Use data is strongly discouraged. For example, do not check your secure email from your smart phone. Individuals that <em>must</em> use such a device to access <em>Restricted Use</em> data must comply with the standards set forth in the <a href="http://www.bu.edu/policies/minimum-security-standards/">minimum security standards</a>.</td>
+</tr>
+<tr>
+<td rowspan="3" width="11%"><strong>Storing</strong></td>
+<td width="11%">Paper</td>
+<td width="11%">Keep in locked filing cabinets in physically secure areas that are accessible only by authorized individuals. Keep the number of copies of the data to a minimum.</td>
+</tr>
+<tr>
+<td width="11%">Electronic</td>
+<td width="11%">Encryption of stored data is required. Devices used to store sensitive (non-Public) information must meet <a href="http://www.bu.edu/policies/minimum-security-standards/">minimum security standards</a>. Cloud services may not be used to process or store <em>Restricted Use</em> data unless they have been approved for such use by Information Security and the appropriate Data Trustee.</td>
+</tr>
+<tr>
+<td width="11%">Electronic Media (CD, DVD, USB, etc.)</td>
+<td width="11%">Encryption of stored data is required. Store media in a secure location when not in use. Media should be inventoried upon creation and destroyed as soon as it is no longer needed.</td>
+</tr>
+<tr>
+<td width="11%"><strong>Auditing</strong></td>
+<td width="11%">ALL</td>
+<td width="11%">Each unit or department must conduct periodic reviews of where<em> Restricted Use</em> data is located, who has access to it, the access control mechanisms, encryption protocols, and data destruction protocols. Verify that procedures for removing access are documented and accurate.</td>
+</tr>
+<tr>
+<td width="11%"><strong>Incident Reporting</strong></td>
+<td width="11%">ALL</td>
+<td width="11%">Any unauthorized disclosure or loss of this information must be reported to the BU <a href="http://www.bu.edu/tech/services/security/cyber-security/">Incident Response Team</a> (617-358-1100) and will be conveyed to the Information Security Program Director.</td>
+</tr>
+<tr>
+<td rowspan="5" width="11%"><strong>Destroying</strong></td>
+<td width="11%">ALL</td>
+<td width="11%">Review <a href="http://www.bu.edu/policies/information-management/record-retention/">University Record Retention Policy</a> and the information in this destruction section before disposing of records. Do not destroy records that are the subject of a litigation hold or that must be retained pursuant to the University record retention policy.</td>
+</tr>
+<tr>
+<td width="11%">Paper &amp; Disposable Electronic Media (CDs, DVDs)</td>
+<td width="11%">Physically destroy using a cross-cut shredder or similar appropriate technology and then recycle or discard. See the <a href="http://www.bu.edu/tech/services/infrastructure/storage-backup/media-destruction/">Media Destruction page</a> for more details.</td>
+</tr>
+<tr>
+<td width="11%">Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk drives)</td>
+<td width="11%">Delete using an approved secure deletion program. See the <a href="http://www.bu.edu/tech/services/infrastructure/storage-backup/media-destruction/">Media Destruction page</a> for more details.</td>
+</tr>
+<tr>
+<td width="11%">All Electronic Storage Media at End of Life, including Disk Drives</td>
+<td width="11%">Functional electronic media that can be overwritten using a secure erase tool then may be recycled or disposed of. Non-functional electronic media (damaged disk drives) must be physically destroyed. See the <a href="http://www.bu.edu/tech/services/infrastructure/storage-backup/media-destruction/">Media Destruction page</a> for more details.</td>
+</tr>
+<tr>
+<td width="11%">Device End of Lease or End of Life (Printers, Copiers, Multi-function office machines)</td>
+<td width="11%">Devices such as these often contain hard drives which must be properly erased, or “wiped”, prior to leaving BU control (returned to the vendor, sent to surplus, donated, disposed of, etc.). For information on how to properly wipe the drive, see the documentation for your device or contact BU Information Security.</td>
+</tr>
+</tbody>
+</table>
 
 ## 26.7 Media Destruction One-Sheets
 

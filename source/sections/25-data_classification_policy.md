@@ -71,10 +71,10 @@ More stringent requirements exist for some types of Restricted Use data.  Indivi
 
 Restricted Use data should be used only when no alternative exists and must be carefully protected. Any unauthorized disclosure, unauthorized modification, or loss of Restricted Use data must be reported to Quantel AI at 1-844-QUANTEL.
 
-##25.4 Resolving Conflicts between this Guideline and Other Regulations
+## 25.4 Resolving Conflicts between this Guideline and Other Regulations
 
 Some data may be subject to specific protection requirements under a contract or grant, or according to a law or regulation not described here. In those circumstances, the most restrictive protection requirements should apply. If you have questions, please contact Information Security.
 
-##25.5 Failure to Comply 
+## 25.5 Failure to Comply 
 
 Failure to comply with the Data Protection Standards may result in harm to individuals, organizations or Quantel AI. The unauthorized or unacceptable use of Customer Data, including the failure to comply with these standards, constitutes a violation of Customer policy and may subject the User to revocation of the privilege to use Customer Data or Information Technology or disciplinary action, up to and including termination of employment.

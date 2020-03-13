@@ -2,36 +2,22 @@
 
 This policy establishes the scope, objectives, and procedures of Quantel AI's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission.
 
-## 4.1 Applicable Standards
+## 4.1 Risk Management Policies
 
-### 4.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-* 03.a - Risk Management Program Development
-* 03.b - Performing Risk Assessments
-* 03.c - Risk Mitigation
-
-### 4.1.2 Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(1)(ii)(A) - HIPAA Security Rule Risk Analysis
-* 164.308(a)(1)(ii)(B) - HIPAA Security Rule Risk Management
-* 164.308(a)(8) - HIPAA Security Rule Evaluation
-
-## 4.2 Risk Management Policies
-
-1. It is the policy of Quantel AI to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of Quantel AI's information security program.
-2. Risk analysis and risk management are recognized as important components of Quantel AI's corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
+1. It is the policy of Quantel AI to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of client data (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of Quantel AI's information security program.
+2. Risk analysis and risk management are recognized as important components of Quantel AI's corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard.
    1. Risk assessments are done throughout product life cycles;
    2. Before the integration of new system technologies and before changes are made to Quantel AI physical safeguards; and
       * These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers, or new code developed for operations and management of Quantel AI Platform.
    3. While making changes to Quantel AI physical equipment and facilities that introduce new, untested configurations.
-   4. Quantel AI performs periodic technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of ePHI.
+   4. Quantel AI performs periodic technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of client data.
 3. Quantel AI implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to:
-   1. Ensure the confidentiality, integrity, and availability of all ePHI Quantel AI receives, maintains, processes, and/or transmits for its Customers;
-   2. Protect against any reasonably anticipated threats or hazards to the security or integrity of Customer ePHI;
-   3. Protect against any reasonably anticipated uses or disclosures of Customer ePHI that are not permitted or required; and
+   1. Ensure the confidentiality, integrity, and availability of all data Quantel AI receives, maintains, processes, and/or transmits for its Customers;
+   2. Protect against any reasonably anticipated threats or hazards to the security or integrity of Customer data;
+   3. Protect against any reasonably anticipated uses or disclosures of Customer data that are not permitted or required; and
    4. Ensure compliance by all workforce members.
-4. Any risk remaining (residual) after other risk controls have been applied, requires sign off by the senior management and Quantel AI's Security Officer.
-5. All Quantel AI workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation, as outlined in Quantel AI Roles Policy.
+4. Any risk remaining (residual) after other risk controls have been applied, requires sign off by the senior management.
+5. All Quantel AI workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation, as outlined in Quantel AI Roles Policy¶.
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of Quantel AI's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 8. The details of the Risk Management Process, including risk assessment, discovery, and mitigation, are outlined in detail below. The process is tracked, measured, and monitored using the following procedures:
@@ -42,14 +28,14 @@ This policy establishes the scope, objectives, and procedures of Quantel AI's in
   5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
 9. The Risk Management Procedure is monitored on a quarterly basis using Quality Management System reporting to assess compliance with above policy.
 
-## 4.3 Risk Management Procedures
+## 4.2 Risk Management Procedures
 
-### 4.3.1 Risk Assessment
+### 4.2.1 Risk Assessment
 
 The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
 
 * Step 1. System Characterization
-  * The first step in assessing risk is to define the scope of the effort. To do this, identify where ePHI is received, maintained, processed, or transmitted. Using information-gathering techniques, Quantel AI Platform boundaries are identified.
+  * The first step in assessing risk is to define the scope of the effort. To do this, identify where sensitive client data is received, maintained, processed, or transmitted. Using information-gathering techniques, Quantel AI Platform boundaries are identified.
   * Output - Characterization of Quantel AI Platform system assessed, a good picture of the Platform environment, and delineation of Platform boundaries.
 
 * Step 2. Threat Identification
@@ -84,9 +70,9 @@ The intent of completing a risk assessment is to determine potential threats and
   * Results of the risk assessment are documented in an official report, spreadsheet, or briefing and provided to senior management to make decisions on policy, procedure, budget, and Platform operational and management changes.
   * Output - A risk assessment report that describes the threats and vulnerabilities, measures the risk, and provides recommendations for control implementation.
 
-### 4.3.2 Risk Mitigation
+### 4.2.2 Risk Mitigation
 
-Risk mitigation involves prioritizing, evaluating, and implementing the appropriate risk-reducing controls recommended from the Risk Assessment process to ensure the confidentiality, integrity and availability of Quantel AI Platform ePHI. Determination of appropriate controls to reduce risk is dependent upon the risk tolerance of the organization consistent with its goals and mission.
+Risk mitigation involves prioritizing, evaluating, and implementing the appropriate risk-reducing controls recommended from the Risk Assessment process to ensure the confidentiality, integrity and availability of Customer data in the Quantel AI Platform. Determination of appropriate controls to reduce risk is dependent upon the risk tolerance of the organization consistent with its goals and mission.
 
 * Step 1. Prioritize Actions
   * Using results from Step 7 of the Risk Assessment, sort the threat and vulnerability pairs according to their risk-levels in descending order. This establishes a prioritized list of actions needing to be taken, with the pairs at the top of the list getting/requiring the most immediate attention and top priority in allocating resources
@@ -101,7 +87,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
   * Output - Documented cost-benefit analysis of either implementing or not implementing each specific control
 
 * Step 4. Select Control(s)
-  * Taking into account the information and results from previous steps, Quantel AI's mission, and other important criteria, the Risk Management Team determines the best control(s) for reducing risks to the information systems and to the confidentiality, integrity, and availability of ePHI. These controls may consist of a mix of administrative, physical, and/or technical safeguards.
+  * Taking into account the information and results from previous steps, Quantel AI's mission, and other important criteria, the Risk Management Team determines the best control(s) for reducing risks to the information systems and to the confidentiality, integrity, and availability of Customer data. These controls may consist of a mix of administrative, physical, and/or technical safeguards.
   * Output - Selected control(s)
 
 * Step 5. Assign Responsibility
@@ -129,7 +115,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
   * If risk reduction expectations are not met, then repeat all or a part of the risk management process so that additional controls needed to lower risk to an acceptable level can be identified.
   * Output - Residual Risk documentation
 
-### 4.3.3 Risk Management Schedule
+### 4.2.3 Risk Management Schedule
 
 The two principle components of the risk management process - risk assessment and risk mitigation - will be carried out according to the following schedule to ensure the continued adequacy and continuous improvement of Quantel AI's information security program:
 
@@ -137,6 +123,6 @@ The two principle components of the risk management process - risk assessment an
 * Throughout a System's Development Life Cycle - from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities should be undertaken as a part of the maintenance of the system.
 * As Needed - the Security Officer (or other designated employee) or Risk Management Team may call for a full or partial risk assessment in response to changes in business strategies, information technology, information sensitivity, threats, legal liabilities, or other significant factors that affect Quantel AI's Platform.
 
-## 4.4 Process Documentation
+## 4.3 Process Documentation
 
 Maintain documentation of all risk assessment, risk management, and risk mitigation efforts for a minimum of six years.

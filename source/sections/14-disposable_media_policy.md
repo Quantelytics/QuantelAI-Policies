@@ -1,8 +1,8 @@
 # 14. Disposable Media Policy
 
-Quantel AI recognizes that media containing sensitive Customer data may be reused when appropriate steps are taken to ensure that all stored ePHI has been effectively rendered inaccessible. Destruction/disposal of ePHI shall be carried out in accordance with federal and state law. The schedule for destruction/disposal shall be suspended for ePHI involved in any open investigation, audit, or litigation.
+Quantel AI recognizes that media containing Customer data may be reused when appropriate steps are taken to ensure that all stored Customer data has been effectively rendered inaccessible. Destruction/disposal of Customer data shall be carried out in accordance with federal and state law. The schedule for destruction/disposal shall be suspended for Customer data involved in any open investigation, audit, or litigation.
 
-ePHI is only stored in our hosted environment using encrypted storage. Quantel AI does not use, own, or manage any mobile devices, SD cards, or tapes that have access to ePHI.
+Sensitive Customer data is only stored in our hosted environment using encrypted storage. Quantel AI does not use, own, or manage any mobile devices, SD cards, or tapes that have access to sensitive Customer data.
 
 ## 14.1 Disposable Media Policy
 

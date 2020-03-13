@@ -4,7 +4,7 @@ Quantel AI makes every effort to assure all 3rd party organizations are complian
 
 ## 21.1 Policies to Assure 3rd Parties Support Quantel AI Compliance
 
-1. Quantel AI does not allow 3rd party access to production systems containing ePHI.
+1. Quantel AI does not allow 3rd party access to production systems containing sensitive Customer Data.
 2. All connections and data in transit between Quantel AI Platform and 3rd parties are encrypted end to end.
 3. A standard business associate agreement with Customers and Partners is defined and includes the required security controls in accordance with the organization's security policies. Additionally, responsibility is assigned in these agreements.
 4. Quantel AI has Service Level Agreements (SLAs) with Subcontractors with an agreed service arrangement addressing liability, service definitions, security controls, and aspects of services management.

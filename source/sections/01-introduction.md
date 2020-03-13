@@ -14,48 +14,44 @@ PaaS Customers utilize hosted software and infrastructure from Quantel AI to dep
 
 ## 1.3 Compliance Inheritance
 
-Quantel AI provides compliant hosted software infrastructure for its Customers. Quantel AI has been through a HIPAA compliance audit by a national third-party compliance firm to validate and map organizational policies and technical controls to HIPAA rules. Quantel AI's company policies, procedures, and technologies are HITRUST Certified. Quantel AI's service offerings are available on AWS, Azure, Rackspace, and SoftLayer; current production systems on these platforms are included in Quantel AI's third-party audits and HITRUST certification.
+Quantel AI provides compliant hosted software infrastructure for its Customers. Quantel AI's service offerings are currrently available on AWS.
 
-Quantel AI signs business associate agreements (BAAs) with its Customers. These BAAs outline Quantel AI obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, Quantel AI manages various aspects of compliance for Customers. The aspects of compliance that Quantel AI manages for Customers are inherited by Customers, and Quantel AI assumes the risk associated with those aspects of compliance. In doing so, Quantel AI helps Customers achieve and maintain compliance, as well as mitigates Customers' risk.
+Quantel AI signs business associate agreements (BAAs) with its Customers. These BAAs outline Quantel AI obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements, as well as future compliance frameworks, Quantel AI manages various aspects of compliance for Customers. The aspects of compliance that Quantel AI manages for Customers are inherited by Customers, and Quantel AI assumes the risk associated with those aspects of compliance. In doing so, Quantel AI helps Customers achieve and maintain compliance, as well as mitigates Customers' risk.
 
-Quantel AI does not act as a covered entity. When Quantel AI does operate as a business associate (not a subcontractor), Quantel AI does not interface with users to obtain or provide access to ePHI. Access to ePHI is through our customers' applications.
+Quantel AI does not act as a covered entity. When Quantel AI does operate as a business associate (not a subcontractor), Quantel AI does not interface with users to obtain or provide access to sensitive Customer data. Access to sensitive Customer data is through our customers' applications.
 
-Certain aspects of compliance cannot be inherited. Because of this, Quantel AI Customers, in order to achieve full compliance or HITRUST Certification, must implement certain organizational policies. These policies and aspects of compliance fall outside of the services and obligations of Quantel AI.
+Certain aspects of compliance cannot be inherited. Because of this, Quantel AI Customers, in order to achieve full compliance, must implement certain organizational policies. These policies and aspects of compliance fall outside of the services and obligations of Quantel AI.
 
-Mappings of HIPAA Rules to Quantel AI controls and a mapping of what Rules are inherited by Customers, both Platform Customers and Add-on Customers, are covered in [§2](#2.-hipaa-inheritance).
 
 ## 1.4 Quantel AI Organizational Concepts
 
-The physical infrastructure environment of Quantel AI's hosted platform is hosted at [Rackspace](https://www.rackspace.com/), [Amazon Web Services](https://aws.amazon.com/) (AWS), [Microsoft Azure](https://azure.microsoft.com/), and [IBM SoftLayer](http://www.softlayer.com/). The network components and supporting network infrastructure are contained within the Rackspace, AWS, Azure, and SoftLayer infrastructures and managed by Rackspace, AWS, Microsoft, and IBM (respectively). Quantel AI does not have physical access into the network components. Quantel AI environment consists of Cisco firewalls; nginx web servers; Java, Python, and Go application servers; Percona and PostgreSQL database servers; Logstash logging servers; Linux Ubuntu monitoring servers; Windows Server virtual machines; Chef and Salt configuration management servers; OSSEC IDS services; Docker containers; Kubernetes orchestration and developer tool servers running on Linux Ubuntu servers.
+The physical infrastructure environment of Quantel AI's hosted platform is hosted at [Amazon Web Services](https://aws.amazon.com/) (AWS). The network components and supporting network infrastructure are contained within the AWS infrastructure and managed by AWS. Quantel AI does not have physical access into the network components. Quantel AI environment consists of Cisco firewalls; nginx web servers; Java and Python application servers; PostgreSQL database servers; Logstash logging servers; Linux Ubuntu monitoring servers; Docker containers; Kubernetes orchestration and developer tool servers running on Linux Ubuntu servers.
 
-Within Quantel AI Platform on Rackspace, AWS, Azure, and SoftLayer, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Quantel AI assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
+Within Quantel AI Platform on AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Quantel AI assumes all data *may* contain sensitive Customer data, and provides appropriate protections based on that assumption.
 
-In the case of PaaS Customers, it is the responsibility of the Customer to restrict, secure, and assure the privacy of all ePHI data at the Application Level, as this is not under the control or purview of Quantel AI.
+In the case of PaaS Customers, it is the responsibility of the Customer to restrict, secure, and assure the privacy of all sensitive Customer data at the Application Level, as this is not under the control or purview of Quantel AI.
 
 The data and network segmentation mechanism differs depending on the primitives offered by the underlying cloud provider infrastructure:
 
-* Within Rackspace, hosted load balancers segment data and traffic while Cisco firewalls route traffic to private subnets for PaaS Customers and for Platform Add-ons.
 * Within AWS, hosted load balancers segment data across dedicated Virtual Private Clouds for PaaS Customers and for Platform Add-ons.
-* Within Azure, hosted load balancers segment data across dedicated Virtual Networks for PaaS Customers and for Platform Add-ons.
-* Within SoftLayer, hosted load balancers segment data across dedicated Private Networks for PaaS Customers and for Platform Add-ons.
 
 The segmentation strategies employed by Quantel AI effectively create RFC 1918, or dedicated, private segmented and separated networks and IP spaces, for each PaaS Customer and for Platform Add-ons.
 
 Additionally, IPtables is used on each server for logical segmentation. IPtables is configured to restrict access to only justified ports and protocols. Quantel AI has implemented strict logical access controls so that only authorized personnel are given access to the internal management servers. The environment is configured so that data is transmitted from the load balancers to the application servers over a TLS encrypted session.
 
-In the case of Platform Add-ons, once the data is received from the application server, a series of Application Programming Interface (API) calls is made to the database servers where the ePHI resides. The ePHI is separated into PostgreSQL and Percona databases through programming logic built so that access to one database server will not present you with the full ePHI spectrum.
+In the case of Platform Add-ons, once the data is received from the application server, a series of Application Programming Interface (API) calls is made to the database servers where the sensitive Customer data resides. The sensitive Customer data is separated into PostgreSQL and Percona¶ databases through programming logic built so that access to one database server will not present you with the full sensitive Customer data spectrum¶.
 
-The VPN server, nginx web server, and application servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal Quantel AI network and can only be accessed through a bastion host over a VPN connection. Access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business-justified reason. Remote access to internal servers is not accessible except through load balancers.
+The VPN server, nginx web server, and application servers are externally facing and accessible via the Internet. The database servers, where the sensitive Customer data resides, are located on the internal Quantel AI network and can only be accessed through a bastion host over a VPN connection. Access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business-justified reason. Remote access to internal servers is not accessible except through load balancers.
 
 All Platform Add-ons and operating systems are tested end-to-end for usability, security, and impact prior to deployment to production.
 
 ## 1.5 Requesting Audit and Compliance Reports
 
-Quantel AI, at its sole discretion, shares audit reports, including its HITRUST reports and Corrective Action Plans (CAPs), with customers on a case by case basis. All audit reports are shared under explicit NDA in Quantel AI format between Quantel AI and party to receive materials. Audit reports can be requested by Quantel AI workforce members for Customers or directly by Quantel AI Customers.
+Quantel AI, at its sole discretion, will shares audit reports, with customers on a case by case basis. All audit reports are shared under explicit NDA in Quantel AI format between Quantel AI and party to receive materials. Audit reports can be requested by Quantel AI workforce members for Customers or directly by Quantel AI Customers.
 
 The following process is used to request audit reports:
 
-1. Email is sent to compliance-reports@quantel.ai. In the email, please specify the type of report being requested and any required timelines for the report.
+1. Email is sent to compliance-reports@quantel.ai¶. In the email, please specify the type of report being requested and any required timelines for the report.
 2. Quantel AI staff will log an issue with the details of the request into the Quantel AI Quality Management System. Quantel AI Quality Management System is used to track requests' status and outcomes.
 3. Quantel AI will confirm if a current NDA is in place with the party requesting the audit report. If there is no NDA in place, Quantel AI will send one for execution.
 4. Once it has been confirmed that an NDA is executed, Quantel AI staff will move the issue to "Under Review".

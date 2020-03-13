@@ -1,4 +1,4 @@
-# 27 Change Management Policy
+# 27. Change Management Policy
 
 The following outlines the process for submitting, reviewing, approving, deferring and closing technology change items.
 

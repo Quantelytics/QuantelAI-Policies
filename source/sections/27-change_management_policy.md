@@ -35,10 +35,10 @@ New change items are reviewed during the change meeting. The leader of the chang
 ## 27.5 Approval & Deferral of Change Items
 
 Authorization of a change item occurs after the change is reviewed and depends on the priority of the item as described in the table below.
-Type	Authorization*	Change Timing/Discussion
-Non- Emergency 	As defined by the Quantel AI team requesting/owning the change (i.e. Group Leader, Project Manager, Manager, etc.) 	Change occurs after consensus approval from the change meeting
-Urgent 	Received from an Quantel AI Director prior to the change being made 	Change occurs prior to the change meeting discussion
-Emergency 	None, Quantel AI Director is communicated with after (or as) the change is being made 	Change occurs prior to the change meeting discussion
+| Type	| Authorization*	| Change Timing/Discussion |
+| Non- Emergency 	| As defined by the Quantel AI team requesting/owning the change (i.e. Group Leader, Project Manager, Manager, etc.) 	| Change occurs after consensus approval from the change meeting |
+| Urgent 	| Received from an Quantel AI Director prior to the change being made 	| Change occurs prior to the change meeting discussion |
+| Emergency 	| None, Quantel AI Director is communicated with after (or as) the change is being made 	| Change occurs prior to the change meeting discussion |
 *Changes affecting the high security environment require the approval of an Quantel AI Director and the Information Security Office regardless of the type of change indicated.
 
 Items that are not approved according to the table above should not be implemented until the review and approval process is followed. Unapproved change items should only remain so for a short period of time (1 or 2 change meetings only). Items that cannot be approved and/or will not be deployed in a reasonable timeframe should be moved to deferred status and reactivated when the change is ready for deployment.

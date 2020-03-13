@@ -1,6 +1,6 @@
-#26 Data Protection Policy
+# 26 Data Protection Policy
 
-##26.1 Purpose and Overview
+## 26.1 Purpose and Overview
 
 This Guideline complements the Data Classification Policy by defining (1) the requirements for handling and protecting information at each stage of its lifecycle from creation to destruction and (2) the minimum security standards required for any electronic device that may be used to access or store Sensitive Information owned or used by Boston University.
 
@@ -8,7 +8,7 @@ Sensitive Information is University Data that is classified as Internal, Confide
 
 Public (non-Sensitive) Information does not require any level of protection from disclosure but appropriate precautions should be taken to protect original (source) documents from unauthorized modification.
 
-##26.2 Scope
+## 26.2 Scope
 
 The data handling protections outlined in this document apply to all Sensitive Information, both physical and electronic, throughout all of Boston University.
 Information Lifecycle
@@ -18,7 +18,7 @@ The information lifecycle is the progression of stages or states in which a piec
 It is important to understand that Storing refers to a broad spectrum of activities including putting a file in a filing cabinet or on to a file server or entering information into a database or spreadsheet. The requirements for Storing information apply equally to the source and to any copies made. For example, When a file is downloaded or copied from a file server to a laptop computer for use offline, it is Stored in that new location and all of the Storing requirements must be followed.
 
  
-##26.3 Requirements for Protection
+## 26.3 Requirements for Protection
 
 Each classification of data has different requirements for protection throughout the lifecycle of use. The requirements for each Internal Data, Confidential Data, & Restricted Use Data are detailed below.
 Roles
@@ -37,7 +37,7 @@ Departments and organizations within the university should, as appropriate, take
 
 Boston University personnel are responsible for complying with all BU policies, including this one, to the best of their understanding and to make reasonable efforts to properly understand.
 
-##26.4 Internal Data
+## 26.4 Internal Data
 Internal Data |Collecting |No restrictions.
 Accessing |Access should be provided as required for business devices used to access sensitive (non-Public) information must meet minimum security standards.
 Sharing |Share with employees as needed. Share with vendors/third-parties as approved by department head.
@@ -53,7 +53,7 @@ Paper & Disposable Electronic Media (CDs, DVDs) |For Internal documents with sen
 Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk drives) |Use standard operating system utilities to delete files.
 All Electronic Storage Media at End of Life, including Disk Drives |It is best practice to securely erase these devices before disposing of them. See the Media Destruction page for more details.
 
-##26.5 Confidential Data
+## 26.5 Confidential Data
 Confidential Data |Collecting |Reduce or eliminate collection where not required for business function. Collection of some types of Confidential data about individuals may require the approval of the appropriate Data Trustee(s). See the Data Access Management Policy for a list of the trustees and the approval request form.
 Accessing |Access to some Confidential data requires approval of a Data Trustee on a per-individual basis. See the Data Access Management Policy for a list of the trustees and the approval request form. Devices used to access sensitive (non-Public) information must meet minimum security standards. Ensure protocols are in place to immediately remove access upon change in employment status of any individual with access.
 Sharing |If you are uncertain if a piece of Confidential information should be shared, escalate the request to an appropriate supervisor or Data Trustee. For types of data that are governed by a Data Trustee, this information may be shared only for business purposes and only as approved by the appropriate Data Trustee, except where the information is being given to approved custodians of that type of data. Information concerning a small number of individuals may be shared internally without Trustee review if the recipient of the data has a need-to-know and is entrusted with the same type of information for their job function. Note: Non-disclosure language or a confidentiality agreement may be appropriate.For example:
@@ -81,7 +81,7 @@ Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk driv
 All Electronic Storage Media at End of Life, including Disk Drives |Functional electronic media that is erased using a secure erase tool may be recycled or disposed of. Non-functional electronic media (damaged disk drives) must be physically destroyed. See the Media Destruction page for more details on both methods.
 Device End of Lease or End of Life (Printers, Copiers, Multi-function office machines) |Devices such as these often contain hard drives which must be properly erased, or “wiped”, prior to leaving BU control (returned to the vendor, sent to surplus, donated, disposed of, etc.). For information on how to properly wipe the drive, see the documentation for your device or contact BU Information Security.
 
-##26.6 Restricted Use Data
+## 26.6 Restricted Use Data
 Restricted Use Data |Collecting |Eliminate collection whenever possible. Collection of Restricted Use data about individuals must be approved by and provided to the appropriate Data Trustee(s). See the Data Access Management Policy for a list of the trustees and the approval request form.
 Accessing |Access to Restricted Use data requires approval of a Data Trustee. See the Data Access Management Policy for a list of the trustees and the approval request form. Avoid accessing or using Restricted Use data whenever possible, and do so from as few different devices as possible. Devices used to access Restricted Use information must meet minimum security standards for Restricted Use information. The custodian of the system or information must immediately remove access from any person that no longer requires that access as part of their job function.
 Sharing |If you are uncertain if a piece of Restricted Use information should be shared, escalate the request to an appropriate supervisor or Data Trustee. This information may be shared only for need-to-know business purposes and only as approved by the appropriate Data Trustee, except where the information is being given to approved custodians of that type of data. Information concerning a small number of individuals may be shared internally without Trustee review if the recipient of the data has a need-to-know and is entrusted with the same type of information for their job function. Note: Non-disclosure and other types of agreements (business associate agreements) may be necessary. Such agreements or agreement forms must be approved by the Office of General Counsel. For example:
@@ -106,7 +106,7 @@ Electronic Files (Data) Reusable Electronic Storage Devices (USB keys, disk driv
 All Electronic Storage Media at End of Life, including Disk Drives |Functional electronic media that can be overwritten using a secure erase tool then may be recycled or disposed of. Non-functional electronic media (damaged disk drives) must be physically destroyed. See the Media Destruction page for more details.
 Device End of Lease or End of Life (Printers, Copiers, Multi-function office machines) |Devices such as these often contain hard drives which must be properly erased, or “wiped”, prior to leaving BU control (returned to the vendor, sent to surplus, donated, disposed of, etc.). For information on how to properly wipe the drive, see the documentation for your device or contact BU Information Security.
 
-##26.7 Media Destruction One-Sheets
+## 26.7 Media Destruction One-Sheets
 
 Federal and state law or University policy may require that information is retained for a certain period of time. For information on the required retention periods, see University Record Retention Policy (FA-002). However, it is just as important to remove and properly destroy such information when the retention period is over.
 
@@ -115,11 +115,11 @@ BU Information Security maintains reference sheets regarding the proper destruct
 Please refer to the Media Destruction page for more information on this important topic.
 
 
-##26.8 Exceptions
+## 26.8 Exceptions
 
 BU Information Security is authorized to grant exceptions to the requirements set forth in this document. Any exception granted will require a thorough review of the situation and will be based on the implementation of appropriate compensating controls.
 
 
-##26.9 Important
+## 26.9 Important
 
 Failure to comply with the Data Protection Standards may result in harm to individuals, organizations or Boston University. The unauthorized or unacceptable use of University Data, including the failure to comply with these standards, constitutes a violation of University policy and may subject the User to revocation of the privilege to use University Data or Information Technology or disciplinary action, up to and including termination of employment.
